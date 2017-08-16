@@ -1,0 +1,12 @@
+
+*.fdt
+*.fdx
+*.fnm
+*.frq
+*.nrm
+*.prx
+*.tii
+*.tis
+*.gen
+eclipse/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_1
+*.lock
