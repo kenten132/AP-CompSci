@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author corbin higgs
+ * @author Corbin Higgs
  *
  */
 package proj;

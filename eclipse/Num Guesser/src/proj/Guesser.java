@@ -16,7 +16,8 @@ public class Guesser {
 		while (guess == false) {
 			answer = scanner.next();
 			int pos = (max + min) / 2;
-			
+			if (max == min)
+				guess = true;
 			switch (answer) {
 				case "higher": 
 				case "up" :
