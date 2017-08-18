@@ -10,3 +10,13 @@
 *.gen
 eclipse/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_1
 *.lock
+/eclipse/NumGuesser/nbproject/private/
+/eclipse/Num Guesser/nbproject/private/
+/eclipse/Num Guesser/build/
+/eclipse/ProgramAug18/nbproject/private/
+eclipse/.DS_Store
+*.json
+*.xml
+*.mf
+*.properties
+.DS_Store

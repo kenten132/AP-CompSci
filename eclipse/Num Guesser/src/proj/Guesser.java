@@ -18,18 +18,23 @@ public class Guesser {
 			int pos = (max + min) / 2;
 			if (max == min)
 				guess = true;
-			switch (answer) {
+			
+                        if (max == min) {
+				System.out.printf("Your number is " + pos + ".\n");
+                                return; }
+                        
+                        switch (answer) {
 				case "higher": 
 				case "up" :
 				case "1":
 					min = pos + 1;
-					System.out.printf("Is your number higher than, lower than, or equal to " + (max + min) / 2 + "?\n");
+					System.out.printf("Is your number higher than, lower than, or equal to " + (max + min) / 2 + "?\n%d %d", max, min);
 					break;
 				case "lower":
 				case "down":
 				case "0":
 					max = pos - 1;
-					System.out.printf("Is your number higher than, lower than, or equal to " + (max + min) / 2 + "?\n");
+					System.out.printf("Is your number higher than, lower than, or equal to " + (max + min) / 2 + "?\n%d %d", max, min);
 					break;
 				case "equal":
 				case "yes":
@@ -42,8 +47,7 @@ public class Guesser {
 					break;
 					
 				}
-			if (guess == true)
-				System.out.printf("Your number is " + pos + ".\n");
+			
 		
 		}
 		scanner.close();
