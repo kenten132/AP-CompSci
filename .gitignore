@@ -15,8 +15,10 @@ eclipse/.recommenders/index/http___download_eclipse_org_recommenders_models_oxyg
 /eclipse/Num Guesser/build/
 /eclipse/ProgramAug18/nbproject/private/
 eclipse/.DS_Store
-*.json
 *.xml
 *.mf
 *.properties
 .DS_Store
+eclipse/.recommenders/caches/identified-project-coordinates.json
+eclipse/.recommenders/caches/manual-mappings.json
+/eclipse/ProgramAug18/build/
